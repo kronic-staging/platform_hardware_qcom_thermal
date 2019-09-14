@@ -1,4 +1,4 @@
-/* Copyright (c) 2018, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2018-2019, The Linux Foundation. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are
@@ -40,6 +40,12 @@ enum therm_msm_id {
     THERM_SDM_439,
     THERM_MSMNILE,
     THERM_TALOS,
+    THERM_SDMMAGPIE,
+    THERM_MSM_8917,
+    THERM_TRINKET,
+    THERM_KONA,
+    THERM_LITO,
+    THERM_ATOLL,
 };
 
 struct target_therm_cfg {
